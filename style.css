@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
+
+.login {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-200px, -250px);
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 120px;
+  height: auto;
+}
+
+h1 {
+  font-family: "Atma", cursive;
+  margin: 10px 0px;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 18px;
+  width: 200px;
+  padding-left: 5px;
+  margin: 5px 0px;
+  border-top: none;
+  border-right: none;
+  border-bottom: solid;
+  border-left: none;
+  border-width: 3px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #da82ff, #b203ff);
+}
+
+::placeholder {
+  font-family: "Atma", cursive;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="button"] {
+  margin-top: 20px;
+  width: 20%;
+  font-family: "Atma", cursive;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 3px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #cf5eff, #bb1dff);
+  border-radius: 5px;
+}
+
+input[type="button"]:hover {
+  font-weight: bolder;
+}
+
+p {
+  position: absolute;
+  bottom: 0vh;
+  margin: 0px;
+  font-family: "Atma", cursive;
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 1px;
+}
